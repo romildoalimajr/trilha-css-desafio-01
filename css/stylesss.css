@@ -1,0 +1,126 @@
+
+body{
+    width: 1440px;
+    height: auto;
+    color: #000;
+    background-color: #000;
+}
+
+h2{
+    color: #33A8DB;
+    font-weight: bold;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+p{  
+    color: #fff;
+    font-size: 20px;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 605px;
+    border-top: 1px solid #33A8DB;
+    background-image: linear-gradient(#000000, #31A8DD);
+}
+
+.banner-content {
+    display: grid;
+    grid-template-rows: auto;
+    text-align: center;
+    width: 510px;
+    height: 393px;
+    gap: 16px;
+    
+       
+}
+
+.logo {
+    width: 268px;
+    height: 2686px;  
+}
+
+.banner h1{
+    
+    color: #33A8DB;
+    font-family: "Raleway";
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 49.96px;
+}
+
+header p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 200;
+    font-style: normal;
+}
+
+header button {
+    margin-top: 50px;
+    width: 300px;
+    padding: 15px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #33A8DB;
+    border: 3px solid #33A8DB;
+    background: none;
+    letter-spacing: 2px;
+    
+    
+}
+#course-content{
+    width: 100%;
+    height: auto;
+}
+.module{
+    width: 300px;
+    padding: 10px;
+    border: 5px solid #33A8DB;
+    border-radius: 30% 20% 20% 20%;
+    margin: 30px;
+    align-content: center;
+}
+
+#transform-world{
+    width: 100%;
+    height: 500px;
+    background: url(../assets/images/woman-code.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    border-bottom: 5px solid #33A8DB;
+}
+#transform-world p{
+    color: white;
+    text-transform: lowercase;
+    font-size: 50px;
+    text-align: left;    
+}
+
+#professional-challenges{
+    width: 100%;
+    height: auto;
+    align-items: center;
+    background-color: #000;
+    border-bottom: 5px solid #33A8DB;
+    padding: 50px;
+}
+#professional-challenges h2{
+    font-size: 50px;
+    letter-spacing: 5px;
+}
+footer{
+    background: #000;
+    text-align: center;
+    padding: 50px;
+}
+footer a{
+    color: #33A8DB;
+}
